@@ -255,7 +255,7 @@ class ProfileListItems extends StatelessWidget {
     // set up the AlertDialog
     AlertDialog alert = AlertDialog(
       title: Text("Warning"),
-      content: Text("Are you sure?"),
+      content: Text("You want to delete?"),
       actions: [
         cancelButton,
         continueButton,
